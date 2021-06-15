@@ -4,66 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script lang="javascript">
-        let show = true;
-        function toggleDisplay()
-        {
-            show = !show;
-            document.getElementById("contact").style.display = (show) ? "block" : "none";
-        }
-    </script>
+    <title>Document</title>  
    <link href = "css/main.css" rel="stylesheet">
    
 </head>
 <body>
-    <p>
-        <select>
-            <option>Ohio</option>
-            <option>Indiana</option>
-            <option>Kentucky</option>
-        </select>
-    </p>
-    <button onclick="toggleDisplay()">Show/Hide Contact Info</button>
-    <h1 style="text-align: center;">My CV</h1>
+         <h1>My CV</h1>
     <hr>
     <div id="contact">
-        <h1 id = "name" style="margin-bottom: 0; text-align: center;">Charlie Traylor</h1>
-        <h4 style="margin : 0; padding-top: 0;text-align: center;" >5554 Old Blue Rock Rd</h4>
-        <h4 style="margin : 0; padding-top: 0; text-align: center;" >513-306-3842</h4>
-        <h4 style="margin: 0; padding-top: 0;text-align: center;">ctraylor@tql.com</h4>
+         <h1 id = "name" style="margin-bottom: 0;">Charlie Traylor</h1>
+         <h4 style="margin : 0; padding-top: 0;" >5554 Old Blue Rock Rd</h4>
+         <h4 style="margin : 0; padding-top: 0;" >513-306-3842</h4>
+         <h4 style="margin: 0; padding-top: 0;">ctraylor@tql.com</h4>
     </div>
     <hr>
-    <h1>Technologies</h1>
-    <table style="width:100%;">
-     <tr>
-        <th>Git</th>
-        <th>C#.net</th>
-        <th>Angular</th>
-     </tr>
-     <tr>
-         <th>GitHub</th>
-         <th>EntityFramework</th>
-         <th>Scrum</th>
-     </tr>
-     <tr>
-         <th>SqlServer</th>         
-         <th>WebAPI</th>         
-         <th>JQuery</th>         
-     </tr>
-    </table>
+    <div>
+         <h1>Technologies</h1>
+             <table style="width:50%;">
+                <tr>
+                   <th>
+                     <td>Git</td>
+                     <td>C#.net</td>
+                     <td>Angular</td>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                       <td>HTML</td>         
+                       <td>WebAPI</td>                         
+                       <td>GitHub</td>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <td>CSS</td>
+                        <td>EntityFramework</td>
+                        <td>SqlServer</td>         
+                    </th>
+                </tr>
+                <tr>
+                    <th>                      
+                        <td>Scrum</td>
+                        <td>JQuery</td>                        
+                        <td>Javascript</td>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <td>Bootstrap</td>
+                        <td>MVC</td>
+                        <td>Capstone</td>
+                    </th>
+                </tr>                          
+             </table>
+    </div>
     <hr>
-    <h1>Work History</h1>
-    <h2>Logistic Coordinator</h2>
-        <ul>
-            <li>Covered Loads</li>
-            <li>Customer Relations</li>
-            <li>Carrier Relations</li>
-        </ul>
+    <div>
+        <h1>Work History</h1>
+        <h2>Logistic Coordinator</h2>
+        <table style="width:10%;">
+          <tr>
+            <th>
+                <td style="text-align: center;">Covered Loads</td>            
+             </th>
+          </tr>
+          <tr>
+            <th>                
+                <td style="text-align: center;">Customer Relations</td>               
+             </th>
+          </tr>
+          <tr>
+            <th>              
+                <td style="text-align: center;">Carrier Relations</td>
+             </th>
+          </tr>
+        </table>
+    </div>
     <hr>
-    <h1>Education</h1>
-    <ul>
-        <li>Hamilton High School 2010</li>
-    </ul>
+    <div>
+        <h1>Education</h1>
+        <table style="width: 10%;">
+            <tr>
+                <th>
+                    <td>Hamilton High School 2010</td>                
+                </th>
+            </tr>     
+        </table>
+    </div>
 </body>
 </html>
