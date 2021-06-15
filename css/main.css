@@ -1,6 +1,17 @@
-#name
+.maroon
 {
-    
-    color: red;
+    color: maroon;
+}
+.bold
+{
     font-weight: bold;
+}
+.lime
+{
+    color:lime;
+}
+table, tr,td
+{
+    border: 2px solid black;
+    border-collapse:collapse ;
 }
