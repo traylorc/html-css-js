@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>Document</title>
+    <script lang="javascript">
+        let strings = ["abe", "bob", "carol", "darlene"];
+        let students = 
+        [
+            { name: "sarah", city: "tampa"},
+            { name: "john", city: "tampa"},
+            { name: "katelyn", city: "cincinnati"},
+            { name: "mattL", city: "cincinnati"},
+            { name: "jodah", city: "columbus"}
+        ];
+        const clicked = () =>
+        {
+            let tbodyctrl = document.getElementById("tbody");
+            tbodyctrl.innerHTML = "";
+            for(let stu of students)
+            {
+                let tr = "<tr>";
+                    tr += `<td>${stu.name}</td>`;
+                    tr += `<td>${stu.city}</td>`;
+                    tr += "</tr>";
+                    tbodyctrl.innerHTML += tr;
+            }
+
+
+
+            // let ulCtrl = document.getElementsByTagName("ul")[0];
+            // ulCtrl.innerHTML = "";
+            // for(let str of strings)
+            // {
+            //     let liTag = `<li>${str}</li>`;
+            //         ulCtrl.innerHTML += liTag;
+            // }
+        };
+    </script>
+</head>
+<body>
+    <button onclick="clicked()">Click me</button>
+  <table>
+      <thead>
+          <tr>
+              <th>Name</th>
+              <th>City</th>
+          </tr>
+      </thead>
+        <tbody id = "tbody"></tbody>
+</table>
+</body>
+</html>
