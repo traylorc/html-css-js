@@ -1,8 +1,14 @@
 hr
 {
     border:black 2px solid;
+    margin-top: 1px;
 }
 #Git, #Sql, #Csharp
 {
     text-align: center;
+}
+div
+{
+    background-color: rgb(78, 70, 70);
+    
 }
