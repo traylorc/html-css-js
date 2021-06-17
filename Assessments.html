@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+   <script src="js/Assessments.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Assessment</h1>
+    <hr>
+        <div>
+            <input id = "Topic" type="text" placeholder="Topic">
+            <input id = "Score" type="number" placeholder="Score">
+            <button onclick="add()">Add</button>
+        </div>
+        <table class="table table-sm table-striped" style="width: 50%;">
+            <thead>
+                <tr>
+                    <div>
+                         <th style="background-color: blue; color: cornsilk; border-width: 2px; border-color: black;">Topic</th>
+                         <th style="background-color: blue; color: cornsilk; border-width: 2px; border-color: black;">Score</th>
+                    </div>
+                </tr>
+            </thead>
+            <tbody id="Assessments"></tbody>
+        </table>
+</body>
+</html>

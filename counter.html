@@ -2,28 +2,7 @@
 <html lang="en">
 <head>    
     <title>Document</title>
-    <script lang="javascript">
-
-        let counter = 0;
-
-
-        const plus = () =>
-        {
-            counter++;
-            display();
-        }
-        const minus = () =>
-        {
-            counter--;
-            display();
-        }
-        const display = () =>
-        {
-            let inpCtrl = document.getElementById("counter");
-            inpCtrl.value = counter;
-        }
-
-    </script>
+    <script src="js/counter.js"></script> 
 </head>
 <body>
     <button onclick="minus()">That's enough slices</button>
