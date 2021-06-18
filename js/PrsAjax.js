@@ -36,12 +36,14 @@ const display = () =>
         tr.append($(`<td>${u.email}</td>`));
         tr.append($(`<td>${(u.isReviewer ? "Yes" : "No")}</td>`));
         tr.append($(`<td>${(u.isAdmin ? "Yes" : "No")}</td>`));
-        tr.append($(`<a href="http://localhost:45153/get-by-pk.html?id=${u.id}">Detail</a>`))
+        tr.append($(`<a href="http://localhost:5500/PrsAjaxDetail.html?id=${u.id}">Detail</a>`))
         tbody.append(tr);
     }
     
     
 };
+
+
     
     
     
