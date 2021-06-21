@@ -38,7 +38,7 @@ $(() =>
             .done((res) =>
             {
                 console.debug(res);
-                document.location.href = "http://localhost:5500/PrsAjax.html";
+                document.location.href = "http://localhost:5500/PrsPracticeFiles/Prs.html/PrsAjax.html";
             })
             .fail((err) =>
             {
