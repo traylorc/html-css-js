@@ -49,8 +49,7 @@ $.getJSON(`http://localhost:45153/api/users/${id}`)
             {
                 method: 'DELETE',
                 url: `http://localhost:45153/api/Users/${user.id}`,
-                data: JSON.stringify(newUser),
-                contentType: 'application/json'
+                
             })
             .done((res) =>
             {
